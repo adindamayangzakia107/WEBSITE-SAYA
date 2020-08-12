@@ -1,0 +1,78 @@
+.container {
+        width: 70%;
+        margin: auto;  
+        position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    border: 8px solid gold;
+    position: relative;
+    background-image: url("../img/AUTUMN.jpg");
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+}
+
+.dayday {
+    width: 130px;
+    border-radius: 150px;
+    margin-top: 10px;
+}
+
+.header h1 {
+    color: goldenrod
+}
+
+body{
+    background-color: goldenrod
+}
+
+.nav {
+    width: 960px;
+    height: 40px;
+    background-color: gold;
+}
+
+.nav ul {
+    margin-top: 9px;
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.nav li a:hover {
+    background-color: orange;
+    color: orangered;
+}
+
+.main {
+    width: 940px;
+    background-color: white;
+    padding: 10px;
+}
+
+.main img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.footer {
+    height: 40px;
+    width: 930px;
+    background-color: gold;
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
